@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header .headertop{   
+    background-color: black;
+    background-size:contain;
+    color: #F3F3F3;
+}
+.headertop{
+    font-size: 10px;
+} 
+header .headermain{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.productos{
+    background-color: #FBFAF6;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.precio{
+    color: #F0A83E;
+}
+footer{
+    color: #FFFFFF;
+}
+footer h6{
+    color: #8A8787;
+}
+footer .fnovedades{
+    background-color: #F0A83E;
+}
+footer .fcontacto{
+    background-color: #3C2313;
+}
