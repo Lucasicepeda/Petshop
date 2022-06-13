@@ -206,14 +206,9 @@ main input {
 
 footer {
     background-color: black;
-    background-size: contain;
     color: #F3F3F3;
 }
 
-footer h5{
-    text-align: center;
-    margin: 14px;
-}
 footer h6 {
     color: #8A8787;
 }
@@ -258,5 +253,58 @@ footer .fnovedades div img{
 }    
 
 footer .fcontacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3C2313;
+}
+footer .fcontacto h3{
+    font-weight: 700;
+    font-size: 20;
+}
+
+footer .fcontacto h6{
+    font-weight: 700;
+    font-size: 20;
+}
+
+footer .fcontacto .footer_contacto{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.localidad{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 70px;
+}
+
+.telefono{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 70px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 70px;
+}
+
+footer .fcontacto .footer_logo{
+    margin: 0px 70px 0px 0px;
+}
+
+footer h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 4px;
 }
