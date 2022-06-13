@@ -19,63 +19,76 @@
     <header>
         <section class="headertop">
             <p>Grandes ofertas en comedores</p>
-            <p>Español<i class="fa-solid fa-chevron-down"></i></p>
-            <p>ARG$<i class="fa-solid fa-chevron-down"></i></p>
+            <div>
+                <p class="configidioma">Español <i class="fa-solid fa-chevron-down"></i></p>
+                <p class="configmoneda">ARG$ <i class="fa-solid fa-chevron-down"></i></p>
+            </div>
         </section>
         <section class="headermain">
-            <div><img src="./img/Logo.png"></div>
-            <p><i class="fa-solid fa-paw"></i>Categorias</p>
-            <p><i class="fa-solid fa-paw"></i>Pets</p>
-            <p><i class="fa-solid fa-paw"></i>Nosotros</p>
-            <p><i class="fa-solid fa-paw"></i>Contactanos</p>
+            <img src="./img/Logo.png">
+            <ul>
+                <li><p><i class="fa-solid fa-paw"></i>Categorias</p></li>
+                <li><p><i class="fa-solid fa-paw"></i>Pets</p></li>
+                <li><p><i class="fa-solid fa-paw"></i>Nosotros</p></li>
+                <li><p><i class="fa-solid fa-paw"></i>Contactanos</p></li>
+            </ul>
         </section>
     </header>
     <main>
         <section class="banners">
-            <p><img src="./img/background.png"></p>
-            <p>¡Es un placer tenerte aqui!</p>
-            <p>¡Comedores en descuento!</p>
-            <p>COMEDEROS</p>
+            <div class="carteles">
+                <p class="p1">¡Es un placer tenerte aqui!</p>
+                <p class="p2">¡Comedores en descuento!</p>
+                <p class="p3">COMEDEROS</p>
+            </div>
         </section>
         <section>
-            <div>
-                <li><img src="./img/patita.png"></li>
-                <li>Productos Destacados</li>
-                <li>Comederos - Accesorios - Comida</li>
+            <div class="navegacion">
+                <img class="patita" src="./img/patita.png">
+                <p class="pdestacados">Productos Destacados</p>
+                <p class="articulos">Comederos - Accesorios - Comida</p>
             </div>
             <div class="productos">
-                <img src="./img/churrasquito.png">
-                <p>Juguete Churrasquito</p>
-                <p class="precio" >$150</p>
-            </div>
-            <div class="productos">
-                <img src="./img/comedero.png">
-                <p>Comedero para perro</p>
-                <p class="precio">$150</p>
-            </div>
-            <div class="productos">
-                <img src="./img/Huesito.png">
-                <p>Juguete Huesito</p>
-                <p class="precio">$150</p>
+                <div class="producto_item">
+                    <img src="./img/churrasquito.png">
+                    <p>Juguete Churrasquito</p>
+                    <p class="precio" >$150</p>
+                </div>
+                <div class="producto_item">
+                    <img src="./img/comedero.png">
+                    <p>Comedero para perro</p>
+                    <p class="precio">$150</p>
+                </div>
+                <div class="producto_item">
+                    <img src="./img/Huesito.png">
+                    <p>Juguete Huesito</p>
+                    <p class="precio">$150</p>
+                </div>
             </div>
         </section>
-        <section class="formcontact">
-            <form>
+        <section>
+            <form class="formcontact">
                     <label>Contactanos</label> 
                     <input type="text" placeholder="Nombre y Apellido" name="first_name">
                     <input type="email" placeholder="Ingresá tu correo electrónico" name="email" required>
                     <input type="tel" placeholder="Teléfono" name="phone">
-                    <button type="reset">Resetear</button>
-                    <button type="submit">Enviar</button>
+                    <div class="botones">
+                        <button class="reset" type="reset">Resetear</button>
+                        <button class="enviar" type="submit">Enviar</button>
+                    </div>
             </form>
         </section>
     </main>
     <footer>
         <div class="fnovedades">
-            <img src="./img/Email.png" alt="Sobre">
-            <h3>Suscríbete para más novedades</h3>
-            <span>Ingresá tu correo</span><input type="email" name="Mail" id="">
-            <input type="button" value="Suscribirme">
+            <div>
+                <img src="./img/Email.png" alt="Sobre">
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <div>
+                <input type="email" placeholder="Ingresá tu correo electronico" name="Mail" id="">
+                <button type="submit">Suscribirme</button>
+            </div>
         </div>
         <div class="fcontacto">
             <img src="./img/LocationIcon.png" alt="">

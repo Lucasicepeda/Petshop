@@ -1,43 +1,262 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family:'Roboto', sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-header .headertop{   
+header .headertop {
     background-color: black;
-    background-size:contain;
+    background-size: contain;
     color: #F3F3F3;
 }
-.headertop{
+
+.headertop {
     font-size: 10px;
-} 
-header .headermain{
+    display: flex;
+    height: 20px;
+}
+
+header .headermain {
+    display: flex;
     background-color: #F0A83E;
     color: #FFFFFF;
     font-size: 13px;
+    height: 62px;
+    justify-content: space-between;
 }
 
-.productos{
+.headermain img {
+    display: flex;
+    align-items: center;
+    margin: 19px 0px 20px 40px;
+}
+
+.headermain ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.headermain ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+header section>p {
+    margin: 4px;
+    position: absolute;
+    margin-left: 90px;
+}
+
+.configidioma {
+    margin: 4px;
+    position: absolute;
+    right: 98px;
+}
+
+.configmoneda {
+    margin: 4px;
+    position: absolute;
+    right: 52px;
+}
+
+.banners {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.carteles {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1 {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 12px;
+    color: #3C2313;
+}
+
+.p2 {
+    color: #3C2313;
+    margin: 12px;
+}
+
+.p3 {
+    background: #F0A83E;
+    border-radius: 5px;
+    padding: 15px 23px;
+    font-size: 16px;
+    width: 100px;
+    height: 20px;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.patita {
+    width: 67px;
+    height: 71px;
+    margin: 20px;
+}
+
+.pdestacados {
+    font-size: 40px;
+    color: #3C2313;
+    font-weight: 700;
+}
+
+.articulos {
+    font-size: 15px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+.producto_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #FBFAF6;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    margin: 20px;
+    width: 265px;
+    height: 312px;
 }
 
-.precio{
+.precio {
     color: #F0A83E;
 }
-footer{
-    color: #FFFFFF;
+
+label {
+    font-size: 25px;
+    color: #3C2313;
+    font-weight: 700;
+    margin: 20px;
 }
-footer h6{
+
+main input {
+    background-color: #3C2313;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    margin: 10px;
+    padding: 0px 15px;
+}
+.formcontact ::placeholder { 
+    color: #FFFFFF;
+    opacity: 1; 
+    }
+
+.formcontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    background-color: #8A8787;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    margin: 20px 3px;
+}
+
+.enviar {
+    background-color: #F0A83E;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    margin: 20px 3px;
+}
+
+footer {
+    background-color: black;
+    background-size: contain;
+    color: #F3F3F3;
+}
+
+footer h5{
+    text-align: center;
+    margin: 14px;
+}
+footer h6 {
     color: #8A8787;
 }
-footer .fnovedades{
+
+footer .fnovedades {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     background-color: #F0A83E;
 }
-footer .fcontacto{
+footer .fnovedades div{
+    display: flex;
+    align-items: center;
+}
+footer .fnovedades div button{
+    background-color: #3C2313;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    margin: 13px 5px;
+}
+footer .fnovedades div input{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    padding: 0px 15px;
+}
+footer .fnovedades div img{
+    margin: 0px 10px 0px 23px ;
+}
+
+.fnovedades ::placeholder { 
+    color: #A0A0A0;
+    opacity: 1; 
+}    
+
+footer .fcontacto {
     background-color: #3C2313;
 }
