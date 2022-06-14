@@ -275,14 +275,18 @@ footer .fcontacto .footer_contacto{
     justify-content: center;
 }
 
-.localidad{
+.localidad, .telefono, .email{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin: 10px 70px;
 }
 
-.telefono{
+.localidad div, .telefono div, .email div{
+    margin: 0px 25px;
+}
+
+/* .telefono{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -294,7 +298,7 @@ footer .fcontacto .footer_contacto{
     align-items: center;
     justify-content: flex-start;
     margin: 10px 70px;
-}
+} */
 
 footer .fcontacto .footer_logo{
     margin: 0px 70px 0px 0px;
